@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=$primary-font:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+$primary-font: "$primary-font", sans-serif;
+
+.contact {
+    .mb-15 {
+        margin-bottom: 15rem!important;
+    }
+    .mt-15 {
+        margin-top: 15rem!important;
+    }
+    .ml-15 {
+        margin-left: 15rem!important;
+    }
+    .mr-15 {
+        margin-right: 15rem!important;
+    }
+
+}

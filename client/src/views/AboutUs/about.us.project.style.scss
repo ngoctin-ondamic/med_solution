@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+$primary-font: "Poppins", sans-serif;
+
+@media only screen and (min-width: 1600px) and (max-width: 2400px) {
+    .aboutUs__project {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        img {
+            position: absolute;
+            width: 50%;
+            height: 10%;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .aboutUs__project__divOne {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            padding-left: 55%;
+            p {
+                position: relative;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                font-family: $primary-font;
+                font-style: italic;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 48px;
+                color: #333535;
+            }
+            small {
+                margin-top: 40px;
+                position: relative;
+                width: 515px;
+                height: 48px;
+                font-family: $primary-font;
+                font-style: italic;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                color: #6c6c6c;
+            }
+        }
+        .aboutUs__project__divTwo {
+            position: relative;
+            background-color: #e5e5e5;
+            width: 100%;
+            height: 300px;
+            padding-left: 55%;
+            .aboutUs__project__divTwo__rowOne,
+            .aboutUs__project__divTwo__rowTwo {
+                width: 100%;
+                height: 50%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                background-color: transparent;
+    
+                p {
+                    position: relative;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    font-family: $primary-font;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 36px;
+                    line-height: 48px;
+                    text-align: center;
+                    color: #333535;
+                    background-color: transparent;
+                }
+                small {
+                    margin-top: -10px;
+                    position: relative;
+                    height: 48px;
+                    font-family: $primary-font;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    display: flex;
+                    align-items: center;
+                    color: #6c6c6c;
+                    background-color: transparent;
+                }
+            }
+            .aboutUs__project__divTwo__rowOne {
+                .aboutUs__project__divTwo__rowOne__item:nth-child(1) {
+                    margin-right: 10%;
+                    background-color: transparent;
+                }
+                .aboutUs__project__divTwo__rowOne__item:nth-child(2) {
+                    margin-right: 10%;
+                    background-color: transparent;
+                }
+                
+            }
+            .aboutUs__project__divTwo__rowTwo {
+                .aboutUs__project__divTwo__rowOne__item:nth-child(1) {
+                    margin-right: 10%;
+                    background-color: transparent;
+                }
+                .aboutUs__project__divTwo__rowOne__item:nth-child(2) {
+                    margin-right: 10%;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1599px) {
+    .aboutUs__project {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        img {
+            position: absolute;
+            width: 50%;
+            height: 10%;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .aboutUs__project__divOne {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            padding-left: 55%;
+            p {
+                position: relative;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                font-family: $primary-font;
+                font-style: italic;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 48px;
+                color: #333535;
+            }
+            small {
+                margin-top: 40px;
+                position: relative;
+                width: 515px;
+                height: 48px;
+                font-family: $primary-font;
+                font-style: italic;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                color: #6c6c6c;
+            }
+        }
+        .aboutUs__project__divTwo {
+            position: relative;
+            background-color: #e5e5e5;
+            width: 100%;
+            height: 300px;
+            padding-left: 55%;
+            .aboutUs__project__divTwo__rowOne,
+            .aboutUs__project__divTwo__rowTwo {
+                width: 100%;
+                height: 50%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                background-color: transparent;
+    
+                p {
+                    position: relative;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    font-family: $primary-font;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 36px;
+                    line-height: 48px;
+                    text-align: center;
+                    color: #333535;
+                    background-color: transparent;
+                }
+                small {
+                    margin-top: -10px;
+                    position: relative;
+                    height: 48px;
+                    font-family: $primary-font;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    display: flex;
+                    align-items: center;
+                    color: #6c6c6c;
+                    background-color: transparent;
+                }
+            }
+            .aboutUs__project__divTwo__rowOne {
+                .aboutUs__project__divTwo__rowOne__item:nth-child(1) {
+                    margin-right: 10%;
+                    background-color: transparent;
+                }
+                .aboutUs__project__divTwo__rowOne__item:nth-child(2) {
+                    margin-right: 10%;
+                    background-color: transparent;
+                }
+                
+            }
+            .aboutUs__project__divTwo__rowTwo {
+                .aboutUs__project__divTwo__rowOne__item:nth-child(1) {
+                    margin-right: 10%;
+                    background-color: transparent;
+                }
+                .aboutUs__project__divTwo__rowOne__item:nth-child(2) {
+                    margin-right: 10%;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}

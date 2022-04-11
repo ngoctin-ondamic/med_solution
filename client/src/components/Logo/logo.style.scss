@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+$primary-font: "Be Vietnam Pro", sans-serif;
+@media only screen and (min-width: 1600px) and (max-width: 2400px){
+    .logo {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 60px;
+        background-color: transparent;
+    
+        .logo__circle {
+            position: relative;
+            left: 4px;
+            top: 6px;
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background-color: #298dea;
+        }
+        .logo__content {
+            position: relative;
+            font-family: $primary-font;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 48px;
+            color: #333535;
+            background-color: transparent;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1300px) and (max-width: 1599px) {
+    .logo {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 60px;
+        background-color: transparent;
+    
+        .logo__circle {
+            position: relative;
+            left: 4px;
+            top: 6px;
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background-color: #298dea;
+        }
+        .logo__content {
+            position: relative;
+            font-family: $primary-font;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 48px;
+            color: #333535;
+            background-color: transparent;
+        }
+    }
+}
+

@@ -1,0 +1,399 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+$primary-font: "Poppins", sans-serif;
+
+@media only screen and (min-width: 1600px) and (max-width: 2400px) {
+    
+    .team-target {
+       position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10% 12% 0 12%;
+        img:nth-child(1) {
+            position: relative;
+            margin-top: 5%;
+            width: 500px;
+            height: 500px;
+            border-radius: 250px;
+        }
+        img:nth-child(2) {
+            position: absolute;
+            margin-top: 5%;
+            margin-left: 58%;
+            width: 5%;
+            left: -3%;
+            background-color: transparent;
+        }
+
+        .team-target-box {
+            height: 75%;
+            width: 100%;
+            position: relative;
+            margin-top: 5%;
+            padding-left: 5%;
+            p {
+                background-color: transparent;
+                position: relative;
+                margin-top: 5%;
+                width: 600px;
+                font-family: $primary-font;
+                font-style: italic;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 54px;
+                color: #000000;
+                margin-left: 20px;
+                margin-right: 60px;
+            }
+            small {
+                position: relative;
+                top: 5%;
+                margin-left: -15%;
+                background-color: transparent;
+                // width: 35%;
+                // height: 48px;
+                font-family: "Poppins", sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                color: #6c6c6c;
+                justify-content: center;
+            }
+            .team-target-box-rowOne {
+                display: flex;
+                .team-target-box-one {
+                    position: relative;
+                    width: 50%;
+                    height: 25%;
+                    display: flex;
+                    img {
+                        position: relative;
+                        height: 60px;
+                        width: 60px;
+                    }
+                    .team-target-box-one-content {
+                        position: relative;
+                        padding-top: 3%;
+                        p {
+                            position: relative;
+                            width: 290px;
+                            height: 27px;
+
+                            font-family: $primary-font;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 16px;
+                            line-height: 27px;
+
+                            display: flex;
+                            align-items: center;
+                            color: #333535;
+                        }
+                    }
+                }
+                .team-target-box-two {
+                    position: relative;
+                    width: 50%;
+                    height: 25%;
+                    display: flex;
+                    img {
+                        position: relative;
+                        height: 60px;
+                        width: 60px;
+                    }
+                    .team-target-box-two-content {
+                        position: relative;
+                        padding-top: 3%;
+                        p {
+                            position: relative;
+                            width: 290px;
+                            height: 27px;
+
+                            font-family: $primary-font;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 16px;
+                            line-height: 27px;
+
+                            display: flex;
+                            align-items: center;
+                            color: #333535;
+                        }
+                    }
+                }
+            }
+            .team-target-box-rowTwo {
+                display: flex;
+                .team-target-box-three {
+                    position: relative;
+                    width: 50%;
+                    height: 25%;
+                    display: flex;
+                    img {
+                        position: relative;
+                        height: 60px;
+                        width: 60px;
+                    }
+                    .team-target-box-three-content {
+                        position: relative;
+                        padding-top: 3%;
+                        p {
+                            position: relative;
+                            width: 290px;
+                            height: 27px;
+
+                            font-family: $primary-font;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 16px;
+                            line-height: 27px;
+
+                            display: flex;
+                            align-items: center;
+                            color: #333535;
+                        }
+                    }
+                }
+                .team-target-box-four {
+                    position: relative;
+                    width: 50%;
+                    height: 25%;
+                    display: flex;
+                    img {
+                        position: relative;
+                        height: 60px;
+                        width: 60px;
+                    }
+                    .team-target-box-four-content {
+                        position: relative;
+                        padding-top: 3%;
+                        p {
+                            position: relative;
+                            width: 290px;
+                            height: 27px;
+
+                            font-family: $primary-font;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 16px;
+                            line-height: 27px;
+
+                            display: flex;
+                            align-items: center;
+                            color: #333535;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1599px) {
+    .team-target {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // flex-wrap: wrap;
+        padding: 0 12% 0 12%;
+
+        // position: relative;
+        // width: 70%;
+        // margin-top: 5%;
+        // margin-left: 10%;
+        // padding-right: 5%;
+        // display: flex;
+        img:nth-child(1) {
+            position: relative;
+            margin-top: 5%;
+            margin-left: 15%;
+            width: 300px;
+            height: 300px;
+            border-radius: 150px;
+        }   
+        img:nth-child(2) {
+            position: absolute;
+            margin-top: -10%;
+            margin-left: 34%;
+            width: 4%;
+            left: -3%;
+            background-color: transparent;
+        }
+
+        .team-target-box {
+            height: 75%;
+            width: 100%;
+            position: relative;
+            margin-top: 5%;
+            // padding-left: 1%;
+            background-color: transparent;
+            p {
+                background-color: transparent;
+                position: relative;
+                margin-top: 5%;
+                width: 600px;
+                font-family: $primary-font;
+                font-style: italic;
+                font-weight: bold;
+                font-size: 36px;
+                text-align: center;
+                line-height: 54px;
+                color: #000000;
+                margin-left: 20px;
+                margin-right: 60px;
+            }
+            small {
+                position: relative;
+                top: 5%;
+                margin-left: -15%;
+                background-color: transparent;
+                // width: 35%;
+                // height: 48px;
+                font-family: "Poppins", sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                color: #6c6c6c;
+                justify-content: center;
+            }
+            .team-target-box-rowOne {
+                display: flex;
+                .team-target-box-one {
+                    position: relative;
+                    width: 50%;
+                    height: 25%;
+                    display: flex;
+                    img {
+                        position: relative;
+                        height: 40px;
+                        width: 40px;
+                    }
+                    .team-target-box-one-content {
+                        position: relative;
+                        padding-top: 3%;
+                        p {
+                            position: relative;
+                            width: 290px;
+                            height: 27px;
+
+                            font-family: $primary-font;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 14px;
+                            line-height: 27px;
+
+                            display: flex;
+                            align-items: center;
+                            color: #333535;
+                        }
+                    }
+                }
+                .team-target-box-two {
+                    position: relative;
+                    width: 50%;
+                    height: 25%;
+                    display: flex;
+                    margin-left: -10%;
+                    img {
+                        position: relative;
+                        height: 40px;
+                        width: 40px;
+                    }
+                    .team-target-box-two-content {
+                        position: relative;
+                        padding-top: 3%;
+                        p {
+                            position: relative;
+                            width: 290px;
+                            height: 27px;
+
+                            font-family: $primary-font;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 14px;
+                            line-height: 27px;
+
+                            display: flex;
+                            align-items: center;
+                            color: #333535;
+                        }
+                    }
+                }
+            }
+            .team-target-box-rowTwo {
+                display: flex;
+                .team-target-box-three {
+                    position: relative;
+                    width: 50%;
+                    height: 25%;
+                    display: flex;
+                    img {
+                        position: relative;
+                        height: 40px;
+                        width: 40px;
+                    }
+                    .team-target-box-three-content {
+                        position: relative;
+                        padding-top: 3%;
+                        p {
+                            position: relative;
+                            width: 290px;
+                            height: 27px;
+
+                            font-family: $primary-font;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 14px;
+                            line-height: 27px;
+
+                            display: flex;
+                            align-items: center;
+                            color: #333535;
+                        }
+                    }
+                }
+                .team-target-box-four {
+                    position: relative;
+                    width: 50%;
+                    height: 25%;
+                    display: flex;
+                    margin-left: -10%;
+                    img {
+                        position: relative;
+                        height: 40px;
+                        width: 40px;
+                    }
+                    .team-target-box-four-content {
+                        position: relative;
+                        padding-top: 3%;
+                        p {
+                            position: relative;
+                            width: 290px;
+                            height: 27px;
+
+                            font-family: $primary-font;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 14px;
+                            line-height: 27px;
+
+                            display: flex;
+                            align-items: center;
+                            color: #333535;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

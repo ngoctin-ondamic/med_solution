@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+$primary-font: "Poppins", sans-serif;
+@media only screen and (min-width: 1600px) and (max-width: 2400px){
+    .aboutUs__service{
+        position: relative;
+        display: flex;
+        flex: 1;
+        margin-top: 100px;
+        padding: 2% 12% 8% 12%;
+        .aboutUs__service__content{
+            display: flex;
+            flex-direction: column;
+        }
+        .aboutUs__service__content:nth-child(1){
+            flex: 1;
+            p {
+                position: relative;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                font-family: $primary-font;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 48px;
+                line-height: 72px;
+                text-align: left;
+                color: #333535;
+            }
+            small {
+                margin-top: 40px;
+                position: relative;
+                width: 515px;
+                height: 48px;
+                font-family: $primary-font;
+                font-style: bold;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                color: #0085ff;
+            }
+        }
+        .aboutUs__service__content:nth-child(2){
+            flex: 3;
+            .aboutUs__service__content__pictures{
+                display: flex;
+                flex: 1;
+                align-items: center;
+                justify-content: space-between;
+                img{
+                    border-radius: 10px;
+                }
+            }
+            a{
+                position: relative;
+                width: 202px;
+                height: 51px;
+                padding: 14px 32px;
+                top: 20px;
+                border-radius: 10px;
+                background :transparent;
+                color: #0085ff;
+                font-family: $primary-font;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height */
+                border: none;
+                text-align: center;
+                text-decoration: none;
+                cursor: pointer;
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1599px){
+    .aboutUs__service{
+        position: relative;
+        display: flex;
+        flex: 1;
+        margin-top: 100px;
+        padding: 2% 12% 8% 12%;
+        .aboutUs__service__content{
+            display: flex;
+            flex-direction: column;
+        }
+        .aboutUs__service__content:nth-child(1){
+            flex: 1;
+            p {
+                position: relative;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                font-family: $primary-font;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 48px;
+                line-height: 72px;
+                text-align: left;
+                color: #333535;
+            }
+            small {
+                margin-top: 40px;
+                position: relative;
+                width: 515px;
+                height: 48px;
+                font-family: $primary-font;
+                font-style: bold;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                color: #0085ff;
+            }
+        }
+        .aboutUs__service__content:nth-child(2){
+            flex: 3;
+            .aboutUs__service__content__pictures{
+                display: flex;
+                flex: 1;
+                align-items: center;
+                justify-content: space-between;
+                img{
+                    border-radius: 10px;
+                }
+            }
+            a{
+                position: relative;
+                width: 202px;
+                height: 51px;
+                padding: 14px 32px;
+                top: 20px;
+                border-radius: 10px;
+                background :transparent;
+                color: #0085ff;
+                font-family: $primary-font;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height */
+                border: none;
+                text-align: center;
+                text-decoration: none;
+                cursor: pointer;
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+    }
+}

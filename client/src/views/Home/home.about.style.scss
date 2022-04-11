@@ -1,0 +1,399 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+$primary-font: "Poppins", sans-serif;
+
+@media only screen and (min-width: 1600px) and (max-width: 2400px) {
+    .home__about {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 5%;
+        padding-left: 12%;
+        .home_about_titleDesc {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            p {
+                position: relative;
+                margin-left: 3%;
+                height: 72px;
+                font-family: "Poppins", sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 48px;
+                line-height: 72px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: #333535;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: #6c6c6c;
+            }
+            small {
+                position: relative;
+                margin-top: 30px;
+                width: 401px;
+                height: 24px;
+                margin-left: 516px;
+                font-family: $primary-font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height */
+
+                display: flex;
+                align-items: center;
+                text-align: center;
+
+                color: #6c6c6c;
+            }
+        }
+        .home_about_sight {
+            display: flex;
+            width: 100%;
+            height: 495px;
+            .home_about_sight_pictures {
+                width: 100%;
+                img:nth-child(1) {
+                    position: absolute;
+                    width: 30%;
+                    height: 493px;
+                    left: 15%;
+                    top: auto;
+                    object-fit: fill;
+                    background-color: transparent;
+                    margin-left: 3%;
+                }
+                img:nth-child(2) {
+                    position: absolute;
+                    width: 20%;
+                    height: 30%;
+                    left: 12.5%;
+                    top: 43.5%;
+                    background-color: transparent;
+                }
+                img:nth-child(3) {
+                    position: absolute;
+                    width: 15%;
+                    height: 25%;
+                    left: 35%;
+                    top: 46%;
+                    background-color: transparent;
+                }
+                img:nth-child(4) {
+                    position: absolute;
+                    left: 21%;
+                    top: 25.8%;
+                    background-color: transparent;
+                }
+            }
+            .home_about_sight_content {
+                position: absolute;
+                width: 30%;
+                height: 259px;
+                left: 52.5%;
+                top: 35%;
+                p {
+                    font-family: "Poppins", sans-serif;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 48px;
+                    line-height: 72px;
+                    width: 585px;
+                    height: 36px;
+                    display: flex;
+                    align-items: center;
+                    color: #333535;
+                    margin-bottom: 26px;
+                }
+                small {
+                    font-family: "Poppins", sans-serif;
+                    font-style: italic;
+                    font-weight: 585px;
+                    font-size: 16px;
+                    line-height: 24px;
+                    display: flex;
+                    align-items: center;
+                    width: 600px;
+                    height: 63px;
+                    color: #6c6c6c;
+                    padding-top: 3%;
+                    padding-left: 1%;
+                }
+            }
+        }
+        .home_about_mission {
+            display: flex;
+            width: 100%;
+            height: 355px;
+            .home_about_mission_content {
+                position: absolute;
+                width: 50%;
+                height: 289px;
+                left: 16.5%;
+                top: 80%;
+                p {
+                    position: relative;
+                    width: 574px;
+                    height: 72px;
+
+                    font-family: $primary-font;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 48px;
+                    line-height: 72px;
+                    /* identical to box height */
+
+                    display: flex;
+                    align-items: center;
+
+                    color: #333535;
+                }
+                small {
+                    margin-top: 15px;
+                    position: relative;
+                    width: 502px;
+                    height: 96px;
+                    font-family: $primary-font;
+                    font-style: italic;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    display: flex;
+                    align-items: center;
+
+                    color: #6c6c6c;
+                }
+                a {
+                    position: relative;
+                    width: 162px;
+                    height: 51px;
+                    padding: 14px 52px;
+                    top: 60px;
+                    background: #0085ff;
+                    border-radius: 10px;
+                    color: #ffffff;
+                    font-family: $primary-font;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    /* identical to box height */
+                    border: none;
+                    text-align: center;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+            }
+            img {
+                position: absolute;
+                width: 30%;
+                height: 371px;
+                left: 53%;
+                top: 75%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1599px) {
+    .home__about {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 5%;
+        padding-left: 12%;
+        .home_about_titleDesc {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p {
+                position: relative;
+                margin-right: 10%;
+                height: 72px;
+                font-family: "Poppins", sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 48px;
+                line-height: 72px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: #333535;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: #6c6c6c;
+            }
+            small {
+                position: relative;
+                margin-top: 5%;
+                margin-right: 3%;
+                width: 401px;
+                height: 24px;
+                font-family: $primary-font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height */
+
+                display: flex;
+                align-items: center;
+                text-align: center;
+
+                color: #6c6c6c;
+            }
+        }
+        .home_about_sight {
+            display: flex;
+            width: 100%;
+            height: 495px;
+            .home_about_sight_pictures {
+                width: 100%;
+                img:nth-child(1) {
+                    position: absolute;
+                    width: 30%;
+                    height: 493px;
+                    left: 15%;
+                    top: auto;
+                    object-fit: fill;
+                    background-color: transparent;
+                    margin-left: 3%;
+                }
+                img:nth-child(2) {
+                    position: absolute;
+                    width: 20%;
+                    height: 30%;
+                    left: 12.5%;
+                    top: 43.5%;
+                    background-color: transparent;
+                }
+                img:nth-child(3) {
+                    position: absolute;
+                    width: 15%;
+                    height: 25%;
+                    left: 35%;
+                    top: 46%;
+                    background-color: transparent;
+                }
+                img:nth-child(4) {
+                    position: absolute;
+                    left: 21%;
+                    top: 25.8%;
+                    background-color: transparent;
+                }
+            }
+            .home_about_sight_content {
+                position: absolute;
+                width: 30%;
+                height: 259px;
+                left: 52.5%;
+                top: 35%;
+                p {
+                    font-family: "Poppins", sans-serif;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 48px;
+                    line-height: 72px;
+                    width: 585px;
+                    height: 36px;
+                    display: flex;
+                    align-items: center;
+                    color: #333535;
+                    margin-bottom: 26px;
+                }
+                small {
+                    font-family: "Poppins", sans-serif;
+                    font-style: italic;
+                    font-weight: 585px;
+                    font-size: 16px;
+                    line-height: 24px;
+                    display: flex;
+                    align-items: center;
+                    width: 600px;
+                    height: 63px;
+                    color: #6c6c6c;
+                    padding-top: 3%;
+                    padding-left: 1%;
+                }
+            }
+        }
+        .home_about_mission {
+            display: flex;
+            width: 100%;
+            height: 355px;
+            .home_about_mission_content {
+                position: absolute;
+                width: 50%;
+                height: 289px;
+                left: 16.5%;
+                top: 80%;
+                p {
+                    position: relative;
+                    width: 574px;
+                    height: 72px;
+
+                    font-family: $primary-font;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 48px;
+                    line-height: 72px;
+                    /* identical to box height */
+
+                    display: flex;
+                    align-items: center;
+
+                    color: #333535;
+                }
+                small {
+                    margin-top: 15px;
+                    position: relative;
+                    width: 502px;
+                    height: 96px;
+                    font-family: $primary-font;
+                    font-style: italic;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    display: flex;
+                    align-items: center;
+
+                    color: #6c6c6c;
+                }
+                a {
+                    position: relative;
+                    width: 162px;
+                    height: 51px;
+                    padding: 14px 52px;
+                    top: 60px;
+                    background: #0085ff;
+                    border-radius: 10px;
+                    color: #ffffff;
+                    font-family: $primary-font;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    /* identical to box height */
+                    border: none;
+                    text-align: center;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+            }
+            img {
+                position: absolute;
+                width: 30%;
+                height: 371px;
+                left: 65%;
+                top: 75%;
+            }
+        }
+    }
+}

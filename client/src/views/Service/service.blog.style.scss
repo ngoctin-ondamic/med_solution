@@ -1,0 +1,581 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+$primary-font: "Poppins", sans-serif;
+
+@media only screen and (min-width: 1600px) and (max-width: 2400px){
+    .service-blog {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10% 12% 0 12%;
+    
+        .service-blog-content {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            strong {
+                position: relative;
+                width: 100%;
+                font-family: $primary-font;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: bold;
+                text-align: center;
+                color: #0833f3;
+            }
+            p {
+                position: relative;
+                font-family: $primary-font;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 45px;
+                /* identical to box height */
+                text-align: center;
+                color: #333535;
+                br {
+                    display: inline;
+                }
+            }
+            small {
+                position: relative;
+                top: 50px;
+                left: 50px;
+                width: 400px;
+                height: 23px;
+    
+                font-family: $primary-font;
+                font-style: italic;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 21px;
+                display: flex;
+                align-items: center;
+    
+                color: #909090;
+            }
+        }
+        .service-blog-list {
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            img {
+                position: relative;
+                width: 60%;
+                height: 500px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 20px;
+                margin-bottom: 2%;
+            }
+            .service-blog-list-item {
+                position: relative;
+                width : 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-top: 5%;
+                p {
+                    position: relative;
+                    width: 10%;
+                    font-family: $primary-font;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 27px;
+                    /* identical to box height */
+                    display: flex;
+                    align-items: center;
+                    color: #333535;
+    
+                    background-color: #d9dce0;
+                    border: 3px solid #d9dce0;
+                    box-sizing: border-box;
+                    border-radius: 15px;
+                    justify-content: center;
+                    margin-bottom: 2%;
+                }
+    
+                strong {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    font-family: $primary-font;
+                    font-style: normal;
+                    font-weight: bold;
+                    margin-bottom: 2%;
+                }
+    
+                
+                small {
+                    position: relative;
+                    font-family: $primary-font;
+                    font-style: italic;
+                    font-weight: normal;
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    line-height: 21px;
+                    display: flex;
+                    align-items: center;
+                    color: #909090;
+                    margin-bottom: 2%;
+                }
+    
+                a {
+                    position: relative;
+                    float: right;
+                    box-sizing: border-box;
+                    align-items: center;
+    
+                    justify-content: center;
+                    text-decoration: none;
+                    font-family: "Poppins", sans-serif;
+                    font-style: normal;
+                    font-size: 16px;
+                }
+                a:visited {
+                    color: aqua;
+                }
+            }
+    
+            // .service-blog-list-technology {
+            //     position: relative;
+            //     left: 381px;
+    
+            //     strong {
+            //         position: relative;
+            //         top: 10px;
+            //         display: flex;
+            //         justify-content: center;
+            //         text-align: center;
+            //         font-family: $primary-font;
+            //         font-style: normal;
+            //         font-weight: bold;
+            //     }
+    
+            //     p {
+            //         position: relative;
+            //         width: 120px;
+            //         height: 27px;
+            //         left: 180px;
+            //         top: 10px;
+            //         font-family: $primary-font;
+            //         font-style: normal;
+            //         font-weight: bold;
+            //         font-size: 18px;
+            //         line-height: 27px;
+            //         /* identical to box height */
+    
+            //         display: flex;
+            //         align-items: center;
+            //         color: #333535;
+    
+            //         background-color: #d9dce0;
+            //         border: 3px solid #d9dce0;
+            //         box-sizing: border-box;
+            //         border-radius: 15px;
+            //         justify-content: center;
+            //     }
+            //     small {
+            //         position: relative;
+            //         // width: 303px;
+            //         // height: 63px;
+    
+            //         font-family: $primary-font;
+            //         font-style: italic;
+            //         font-weight: normal;
+            //         font-size: 14px;
+            //         line-height: 21px;
+            //         display: flex;
+            //         align-items: center;
+    
+            //         color: #909090;
+            //     }
+    
+            //     a {
+            //         position: relative;
+            //         float: right;
+            //         box-sizing: border-box;
+            //         align-items: center;
+    
+            //         justify-content: center;
+            //         text-decoration: none;
+            //         font-family: "Poppins", sans-serif;
+            //         font-style: normal;
+            //         font-size: 16px;
+            //     }
+            //     a:visited {
+            //         color: aqua;
+            //     }
+            // }
+    
+            // .service-blog-list-business {
+            //     position: relative;
+            //     left: 781px;
+    
+            //     p {
+            //         position: relative;
+            //         width: 120px;
+            //         height: 27px;
+            //         left: 180px;
+            //         top: 10px;
+            //         font-family: $primary-font;
+            //         font-style: normal;
+            //         font-weight: bold;
+            //         font-size: 18px;
+            //         line-height: 27px;
+            //         /* identical to box height */
+    
+            //         display: flex;
+            //         align-items: center;
+            //         color: #333535;
+    
+            //         background-color: #d9dce0;
+            //         border: 3px solid #d9dce0;
+            //         box-sizing: border-box;
+            //         border-radius: 15px;
+            //         justify-content: center;
+            //     }
+            //     small {
+            //         position: relative;
+            //         // width: 303px;
+            //         // height: 63px;
+    
+            //         font-family: $primary-font;
+            //         font-style: italic;
+            //         font-weight: normal;
+            //         font-size: 14px;
+            //         line-height: 21px;
+            //         display: flex;
+            //         align-items: center;
+    
+            //         color: #909090;
+            //     }
+    
+            //     strong {
+            //         position: relative;
+            //         top: 10px;
+            //         display: flex;
+            //         text-align: center;
+            //         justify-content: center;
+            //         font-family: $primary-font;
+            //         font-style: normal;
+            //         font-weight: bold;
+            //     }
+    
+            //     a {
+            //         position: relative;
+            //         float: right;
+            //         box-sizing: border-box;
+            //         align-items: center;
+    
+            //         justify-content: center;
+            //         text-decoration: none;
+            //         font-family: "Poppins", sans-serif;
+            //         font-style: normal;
+            //         font-size: 16px;
+            //     }
+            //     a:visited {
+            //         color: aqua;
+            //     }
+            // }
+        }
+    }
+    
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1599px){
+    .service-blog {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10% 12% 0 12%;
+    
+        .service-blog-content {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            strong {
+                position: relative;
+                width: 100%;
+                font-family: $primary-font;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: bold;
+                text-align: center;
+                color: #0833f3;
+            }
+            p {
+                position: relative;
+                font-family: $primary-font;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 45px;
+                /* identical to box height */
+                text-align: center;
+                color: #333535;
+                br {
+                    display: inline;
+                }
+            }
+            small {
+                position: relative; 
+                top: 50px;
+                left: 50px;
+                width: 400px;
+                height: 23px;
+    
+                font-family: $primary-font;
+                font-style: italic;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 21px;
+                display: flex;
+                align-items: center;
+    
+                color: #909090;
+            }
+        }
+        .service-blog-list {
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            img {
+                position: relative;
+                width: 60%;
+                height: 500px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 20px;
+                margin-bottom: 2%;
+            }
+            .service-blog-list-item {
+                position: relative;
+                width : 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-top: 5%;
+                p {
+                    position: relative;
+                    width: 15%;
+                    font-family: $primary-font;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 27px;
+                    /* identical to box height */
+                    display: flex;
+                    align-items: center;
+                    color: #333535;
+    
+                    background-color: #d9dce0;
+                    border: 3px solid #d9dce0;
+                    box-sizing: border-box;
+                    border-radius: 15px;
+                    justify-content: center;
+                    margin-bottom: 2%;
+                }
+    
+                strong {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    font-family: $primary-font;
+                    font-style: normal;
+                    font-weight: bold;
+                    margin-bottom: 2%;
+                }
+    
+                
+                small {
+                    position: relative;
+                    font-family: $primary-font;
+                    font-style: italic;
+                    font-weight: normal;
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    line-height: 21px;
+                    display: flex;
+                    align-items: center;
+                    color: #909090;
+                    margin-bottom: 2%;
+                }
+    
+                a {
+                    position: relative;
+                    float: right;
+                    box-sizing: border-box;
+                    align-items: center;
+    
+                    justify-content: center;
+                    text-decoration: none;
+                    font-family: "Poppins", sans-serif;
+                    font-style: normal;
+                    font-size: 16px;
+                }
+                a:visited {
+                    color: aqua;
+                }
+            }
+    
+            // .service-blog-list-technology {
+            //     position: relative;
+            //     left: 381px;
+    
+            //     strong {
+            //         position: relative;
+            //         top: 10px;
+            //         display: flex;
+            //         justify-content: center;
+            //         text-align: center;
+            //         font-family: $primary-font;
+            //         font-style: normal;
+            //         font-weight: bold;
+            //     }
+    
+            //     p {
+            //         position: relative;
+            //         width: 120px;
+            //         height: 27px;
+            //         left: 180px;
+            //         top: 10px;
+            //         font-family: $primary-font;
+            //         font-style: normal;
+            //         font-weight: bold;
+            //         font-size: 18px;
+            //         line-height: 27px;
+            //         /* identical to box height */
+    
+            //         display: flex;
+            //         align-items: center;
+            //         color: #333535;
+    
+            //         background-color: #d9dce0;
+            //         border: 3px solid #d9dce0;
+            //         box-sizing: border-box;
+            //         border-radius: 15px;
+            //         justify-content: center;
+            //     }
+            //     small {
+            //         position: relative;
+            //         // width: 303px;
+            //         // height: 63px;
+    
+            //         font-family: $primary-font;
+            //         font-style: italic;
+            //         font-weight: normal;
+            //         font-size: 14px;
+            //         line-height: 21px;
+            //         display: flex;
+            //         align-items: center;
+    
+            //         color: #909090;
+            //     }
+    
+            //     a {
+            //         position: relative;
+            //         float: right;
+            //         box-sizing: border-box;
+            //         align-items: center;
+    
+            //         justify-content: center;
+            //         text-decoration: none;
+            //         font-family: "Poppins", sans-serif;
+            //         font-style: normal;
+            //         font-size: 16px;
+            //     }
+            //     a:visited {
+            //         color: aqua;
+            //     }
+            // }
+    
+            // .service-blog-list-business {
+            //     position: relative;
+            //     left: 781px;
+    
+            //     p {
+            //         position: relative;
+            //         width: 120px;
+            //         height: 27px;
+            //         left: 180px;
+            //         top: 10px;
+            //         font-family: $primary-font;
+            //         font-style: normal;
+            //         font-weight: bold;
+            //         font-size: 18px;
+            //         line-height: 27px;
+            //         /* identical to box height */
+    
+            //         display: flex;
+            //         align-items: center;
+            //         color: #333535;
+    
+            //         background-color: #d9dce0;
+            //         border: 3px solid #d9dce0;
+            //         box-sizing: border-box;
+            //         border-radius: 15px;
+            //         justify-content: center;
+            //     }
+            //     small {
+            //         position: relative;
+            //         // width: 303px;
+            //         // height: 63px;
+    
+            //         font-family: $primary-font;
+            //         font-style: italic;
+            //         font-weight: normal;
+            //         font-size: 14px;
+            //         line-height: 21px;
+            //         display: flex;
+            //         align-items: center;
+    
+            //         color: #909090;
+            //     }
+    
+            //     strong {
+            //         position: relative;
+            //         top: 10px;
+            //         display: flex;
+            //         text-align: center;
+            //         justify-content: center;
+            //         font-family: $primary-font;
+            //         font-style: normal;
+            //         font-weight: bold;
+            //     }
+    
+            //     a {
+            //         position: relative;
+            //         float: right;
+            //         box-sizing: border-box;
+            //         align-items: center;
+    
+            //         justify-content: center;
+            //         text-decoration: none;
+            //         font-family: "Poppins", sans-serif;
+            //         font-style: normal;
+            //         font-size: 16px;
+            //     }
+            //     a:visited {
+            //         color: aqua;
+            //     }
+            // }
+        }
+    }
+    
+}
+

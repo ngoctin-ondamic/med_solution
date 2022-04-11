@@ -1,0 +1,583 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+$primary-font: "Poppins", sans-serif;
+
+@media only screen and (min-width: 1600px) and (max-width: 2400px){
+    .service-list {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5% 12% 0 12%;
+        .service-list-titleDesc {
+            position: relative;
+            p {
+                position: relative;
+                width: 100%;
+                font-family: $primary-font;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 40px;
+                line-height: 72px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: #333535;
+            }
+        }
+    
+        .service-list-boxes{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 100%;
+            padding: 5%;
+            p,small{
+                margin-top: 5%;
+            }
+            .service-list-boxOne {
+                position: relative;
+                width: 33%;
+                height: 50%;
+                margin-bottom: 10%;
+                padding-right: 5%;
+                img {
+                    position: relative;
+                    width: 15%;
+                    height: 25%;
+                }
+                .service-list-boxOne-content {
+                    position: relative;
+                    p {
+                        position: relative;
+                        font-family: $primary-font;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 27px;
+                        /* identical to box height */
+        
+                        display: flex;
+                        align-items: center;
+                        color: #333535;
+                        br {
+                            display: inline;
+                        }
+                    }
+                    small {
+                        position: relative;
+                        font-family: $primary-font;
+                        font-style: italic;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 21px;
+                        display: flex;
+                        align-items: center;
+        
+                        color: #909090;
+                    }
+                }
+            }
+            .service-list-boxTwo {
+                position: relative;
+                width: 33%;
+                height: 50%;
+                margin-bottom: 10%;
+                padding-right: 5%;
+                img {
+                    position: relative;
+                    width: 15%;
+                    height: 25%;
+                }
+                .service-list-boxTwo-content {
+                    position: relative; 
+                    // left: 380px;
+                    // top: 1028px;
+                    p {
+                        position: relative;
+                        width: 290px;
+                        height: 27px;
+        
+                        font-family: $primary-font;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 27px;
+                        /* identical to box height */
+        
+                        display: flex;
+                        align-items: center;
+                        color: #333535;
+                        br {
+                            display: inline;
+                        }
+                    }
+                    small {
+                        position: relative;
+                        // width: 303px;
+                        // height: 63px;
+        
+                        font-family: $primary-font;
+                        font-style: italic;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 21px;
+                        display: flex;
+                        align-items: center;
+        
+                        color: #909090;
+                    }
+                }
+            }
+            .service-list-boxThree {
+                position: relative;
+                width: 33%;
+                height: 50%;
+                margin-bottom: 10%;
+                padding-right: 5%;
+                img {
+                    position: relative;
+                    width: 15%;
+                    height: 25%;
+                }
+                .service-list-boxThree-content {
+                    position: relative;
+                    width: 303px;
+                    height: 94px;
+                    p {
+                        position: relative;
+                        width: 290px;
+                        height: 27px;
+        
+                        font-family: $primary-font;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 27px;
+                        /* identical to box height */
+        
+                        display: flex;
+                        align-items: center;
+                        color: #333535;
+                        br {
+                            display: inline;
+                        }
+                    }
+                    small {
+                        position: relative;
+                        // width: 303px;
+                        // height: 63px;
+        
+                        font-family: $primary-font;
+                        font-style: italic;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 21px;
+                        display: flex;
+                        align-items: center;
+        
+                        color: #909090;
+                    }
+                }
+            }
+        
+            .service-list-boxFour {
+                position: relative;
+                width: 33%;
+                height: 50%;
+                margin-bottom: 10%;
+                padding-right: 5%;
+                img {
+                    position: relative;
+                    width: 15%;
+                    height: 25%;
+                }
+                .service-list-boxFour-content {
+                    position: relative;
+                    width: 100%;
+                    height: 94px;
+                    p {
+                        position: relative;
+                        width: 290px;
+                        height: 27px;
+        
+                        font-family: $primary-font;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 27px;
+                        /* identical to box height */
+        
+                        display: flex;
+                        align-items: center;
+                        color: #333535;
+                        br {
+                            display: inline;
+                        }
+                    }
+                    small {
+                        position: relative;
+                        // width: 303px;
+                        // height: 63px;
+        
+                        font-family: $primary-font;
+                        font-style: italic;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 21px;
+                        display: flex;
+                        align-items: center;
+        
+                        color: #909090;
+                    }
+                }
+            }
+        
+            .service-list-boxFive {
+                position: relative;
+                width: 33%;
+                height: 50%;
+                margin-bottom: 10%;
+                padding-right: 5%;
+                img {
+                    position: relative;
+                    width: 15%;
+                    height: 25%;
+                }
+                .service-list-boxFive-content {
+                    position: relative;
+                    width: 100%;
+                    height: 94px;
+                    p {
+                        position: relative;
+                        width: 290px;
+                        height: 27px;
+        
+                        font-family: $primary-font;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 27px;
+                        /* identical to box height */
+        
+                        display: flex;
+                        align-items: center;
+                        color: #333535;
+                        br {
+                            display: inline;
+                        }
+                    }
+                    small {
+                        position: relative;
+                         width: 400px;
+                        // height: 63px;
+                        
+                        font-family: $primary-font;
+                        font-style: italic;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 21px;
+                        display: flex;
+                        align-items: center;
+        
+                        color: #909090;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1599px){
+    .service-list {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5% 12% 0 12%;
+        .service-list-titleDesc {
+            position: relative;
+            p {
+                position: relative;
+                width: 100%;
+                font-family: $primary-font;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 40px;
+                line-height: 72px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: #333535;
+            }
+        }
+    
+        .service-list-boxes{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 100%;
+            padding: 5%;
+            p,small{
+                margin-top: 5%;
+            }
+            .service-list-boxOne {
+                position: relative;
+                width: 33%;
+                height: 50%;
+                margin-bottom: 10%;
+                padding-right: 5%;
+                img {
+                    position: relative;
+                    width: 15%;
+                    height: 25%;
+                }
+                .service-list-boxOne-content {
+                    position: relative;
+                    p {
+                        position: relative;
+                        font-family: $primary-font;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 27px;
+                        /* identical to box height */
+        
+                        display: flex;
+                        align-items: center;
+                        color: #333535;
+                        br {
+                            display: inline;
+                        }
+                    }
+                    small {
+                        position: relative;
+                        font-family: $primary-font;
+                        font-style: italic;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 21px;
+                        display: flex;
+                        align-items: center;
+        
+                        color: #909090;
+                    }
+                }
+            }
+            .service-list-boxTwo {
+                position: relative;
+                width: 33%;
+                height: 50%;
+                margin-left:1%;
+                margin-bottom: 10%;
+                padding-right: 5%;
+                img {
+                    position: relative;
+                    width: 15%;
+                    height: 25%;
+                }
+                .service-list-boxTwo-content {
+                    position: relative; 
+                    // left: 380px;
+                    // top: 1028px;
+                    p {
+                        position: relative;
+                        width: 290px;
+                        height: 27px;
+        
+                        font-family: $primary-font;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 27px;
+                        /* identical to box height */
+        
+                        display: flex;
+                        align-items: center;
+                        color: #333535;
+                        br {
+                            display: inline;
+                        }
+                    }
+                    small {
+                        position: relative;
+                        // width: 303px;
+                        // height: 63px;
+        
+                        font-family: $primary-font;
+                        font-style: italic;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 21px;
+                        display: flex;
+                        align-items: center;
+        
+                        color: #909090;
+                    }
+                }
+            }
+            .service-list-boxThree {
+                position: relative;
+                width: 33%;
+                height: 50%;
+                margin-bottom: 10%;
+                padding-right: 5%;
+                img {
+                    position: relative;
+                    width: 15%;
+                    height: 25%;
+                }
+                .service-list-boxThree-content {
+                    position: relative;
+                    width: 303px;
+                    height: 94px;
+                    p {
+                        position: relative;
+                        width: 290px;
+                        height: 27px;
+        
+                        font-family: $primary-font;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 27px;
+                        /* identical to box height */
+        
+                        display: flex;
+                        align-items: center;
+                        color: #333535;
+                        br {
+                            display: inline;
+                        }
+                    }
+                    small {
+                        position: relative;
+                        // width: 303px;
+                        // height: 63px;
+        
+                        font-family: $primary-font;
+                        font-style: italic;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 21px;
+                        display: flex;
+                        align-items: center;
+        
+                        color: #909090;
+                    }
+                }
+            }
+        
+            .service-list-boxFour {
+                position: relative;
+                width: 33%;
+                height: 50%;
+                margin-bottom: 10%;
+                padding-right: 5%;
+                img {
+                    position: relative;
+                    width: 15%;
+                    height: 25%;
+                }
+                .service-list-boxFour-content {
+                    position: relative;
+                    width: 100%;
+                    height: 94px;
+                    p {
+                        position: relative;
+                        width: 290px;
+                        height: 27px;
+        
+                        font-family: $primary-font;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 27px;
+                        /* identical to box height */
+        
+                        display: flex;
+                        align-items: center;
+                        color: #333535;
+                        br {
+                            display: inline;
+                        }
+                    }
+                    small {
+                        position: relative;
+                        // width: 303px;
+                        // height: 63px;
+        
+                        font-family: $primary-font;
+                        font-style: italic;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 21px;
+                        display: flex;
+                        align-items: center;
+        
+                        color: #909090;
+                    }
+                }
+            }
+        
+            .service-list-boxFive {
+                position: relative;
+                width: 33%;
+                height: 50%;
+                margin-left:1%;
+                margin-bottom: 10%;
+                padding-right: 5%;
+                img {
+                    position: relative;
+                    width: 15%;
+                    height: 25%;
+                }
+                .service-list-boxFive-content {
+                    position: relative;
+                    width: 100%;
+                    height: 94px;
+                    p {
+                        position: relative;
+                        width: 290px;
+                        height: 27px;
+        
+                        font-family: $primary-font;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 27px;
+                        /* identical to box height */
+        
+                        display: flex;
+                        align-items: center;
+                        color: #333535;
+                        br {
+                            display: inline;
+                        }
+                    }
+                    small {
+                        position: relative;
+                         width: 400px;
+                        // height: 63px;
+                        
+                        font-family: $primary-font;
+                        font-style: italic;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 21px;
+                        display: flex;
+                        align-items: center;
+        
+                        color: #909090;
+                    }
+                }
+            }
+        }
+        
+    }
+}
