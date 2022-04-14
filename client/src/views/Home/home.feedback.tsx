@@ -12,7 +12,7 @@ const HomeFeedback = () => {
             id: 1,
             avatar: 'img/user.png',
             name: 'Nguyen Ngoc Tin',
-            description: 'Trái với quan điểm chung của số đông, Lorem Ipsum không phải chỉ là một đoạn văn bản ngẫu nhiên. Người ta tìm thấy nguồn gốc của nó từ những tác phẩm văn học la-tinh cổ điển xuất hiện từ năm 45 trước Công Nguyên, nghĩa là nó đã có khoảng hơn 2000 tuổi.', 
+            description: 'Trái với quan điểm chung của số đông, Lorem Ipsum không phải chỉ là một đoạn văn bản ngẫu nhiên. Người ta tìm thấy nguồn gốc của nó từ những tác phẩm văn học la-tinh cổ điển xuất hiện từ năm 45 trước Công Nguyên, nghĩa là nó đã có khoảng hơn 2000 tuổi.',
             job: 'Fullstack Developer',
             rating: 3
         },
@@ -20,7 +20,7 @@ const HomeFeedback = () => {
             id: 2,
             avatar: 'img/user.png',
             name: 'Ngo Manh Thanh',
-            description: 'Trái với quan điểm chung của số đông, Lorem Ipsum không phải chỉ là một đoạn văn bản ngẫu nhiên. Người ta tìm thấy nguồn gốc của nó từ những tác phẩm văn học la-tinh cổ điển xuất hiện từ năm 45 trước Công Nguyên, nghĩa là nó đã có khoảng hơn 2000 tuổi.', 
+            description: 'Trái với quan điểm chung của số đông, Lorem Ipsum không phải chỉ là một đoạn văn bản ngẫu nhiên. Người ta tìm thấy nguồn gốc của nó từ những tác phẩm văn học la-tinh cổ điển xuất hiện từ năm 45 trước Công Nguyên, nghĩa là nó đã có khoảng hơn 2000 tuổi.',
             job: 'Fullstack Developer',
             rating: 4
         },
@@ -28,7 +28,7 @@ const HomeFeedback = () => {
             id: 3,
             avatar: 'img/user.png',
             name: 'Ho Trong Hieu',
-            description: 'Trái với quan điểm chung của số đông, Lorem Ipsum không phải chỉ là một đoạn văn bản ngẫu nhiên. Người ta tìm thấy nguồn gốc của nó từ những tác phẩm văn học la-tinh cổ điển xuất hiện từ năm 45 trước Công Nguyên, nghĩa là nó đã có khoảng hơn 2000 tuổi.', 
+            description: 'Trái với quan điểm chung của số đông, Lorem Ipsum không phải chỉ là một đoạn văn bản ngẫu nhiên. Người ta tìm thấy nguồn gốc của nó từ những tác phẩm văn học la-tinh cổ điển xuất hiện từ năm 45 trước Công Nguyên, nghĩa là nó đã có khoảng hơn 2000 tuổi.',
             job: 'Fullstack Developer',
             rating: 5
         },
@@ -83,12 +83,16 @@ const HomeFeedback = () => {
                 <small>Suy nghĩ của bạn là tương lai của chúng tôi.</small>
             </div>
             <div className='home__feedback__slider' >
-                <button name='btnPrev' onClick={handleOnChange} > <ArrowBackIcon /> </button>
+
                 <div className='home__feedback__slider__box'>
                     <img src={user.avatar} />
                     <div className='home__feedback__slider__box__text' >
                         <p>{user.name}</p>
-                        <p>{user.job}</p>
+                        <div className='home__feedback__slider__box__text__job'>
+                            <button name='btnPrev' onClick={handleOnChange} > <ArrowBackIcon /> </button>
+                            <p>{user.job}</p>
+                            <button name="btnNext" onClick={handleOnChange} ><ArrowForwardIcon /> </button>
+                        </div>
                         <p>{user.description}</p>
                     </div>
                     <div className='home__feedback__slider__box__star'>
@@ -97,7 +101,7 @@ const HomeFeedback = () => {
                         }
                     </div>
                 </div>
-                <button name="btnNext" onClick={handleOnChange} ><ArrowForwardIcon /> </button>
+
             </div>
         </div>
     )

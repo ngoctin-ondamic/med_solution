@@ -6,6 +6,7 @@ const HomeReason = () => {
             <div className='home__reason_titleDesc'>
                 <p>Tại sao các doanh nghiệp chọn chúng tôi?</p>
                 <small>Sự hài lòng của khách hàng</small>
+                <small>Là tương lai của chúng tôi</small>
             </div>
             <div className='home__reason__box'>
                 <div className='home__reason__box__rowOne' >

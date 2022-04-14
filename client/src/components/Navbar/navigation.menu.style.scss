@@ -1,0 +1,25 @@
+.dropdown{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        height: 10%;
+        padding-left: 25%;
+        a{
+            text-decoration: none;
+        }
+        .dropdown-menu{
+            margin-left: 5%;
+            
+        }
+        .dropdown-toggle{
+            background-color: #0085FF;
+        }
+        .btn-success.dropdown-toggle{
+            background-color: #0085FF;
+            border-color: #4187c9
+        }
+        .btn-success.dropdown-toggle:focus{
+            box-shadow: 0 0 0 0.25rem rgba(101, 167, 228, 0.5);
+        }
+}
