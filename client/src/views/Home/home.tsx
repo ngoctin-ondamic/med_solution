@@ -36,6 +36,7 @@ const Home = () => {
                 <HomeService/>
                 <HomeFeedback/>
                 <HomeContact/>
+                <Footer />
             </div>
         )
     }else{
