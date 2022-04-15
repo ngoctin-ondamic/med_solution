@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 $primary-font: "Poppins", sans-serif;
 
-@media only screen and (min-width: 1600px) and (max-width: 2400px) {
+@media only screen and (min-width: 1200px) and (max-width: 2400px) {
     .aboutUs__project {
         display: flex;
         flex-direction: column;
@@ -115,30 +115,20 @@ $primary-font: "Poppins", sans-serif;
         }
     }
 }
-@media only screen and (min-width: 1300px) and (max-width: 1599px) {
+@media only screen and (min-width: 400px) and (max-width: 1199px) {
     .aboutUs__project {
         display: flex;
         flex-direction: column;
-        margin-top: 10%;
-        margin-bottom: 10%;
         width: 100%;
-        img {
-            position: absolute;
-            width: 50%;
-            height: 10%;
-            border-top-right-radius: 10px;
-            border-bottom-right-radius: 10px;
-        }
+        align-items: center;
+        justify-content: center;
         .aboutUs__project__divOne {
             position: relative;
             width: 100%;
-            height: 300px;
-            padding-left: 55%;
-            p {
+            padding: 5% 12% 3% 12%;
+            p { 
                 position: relative;
-                display: flex;
-                align-items: flex-start;
-                justify-content: flex-start;
+                text-align: center;
                 font-family: $primary-font;
                 font-style: italic;
                 font-weight: bold;
@@ -149,8 +139,7 @@ $primary-font: "Poppins", sans-serif;
             small {
                 margin-top: 40px;
                 position: relative;
-                width: 515px;
-                height: 48px;
+                width: 100%;
                 font-family: $primary-font;
                 font-style: italic;
                 font-weight: 500;
@@ -166,16 +155,17 @@ $primary-font: "Poppins", sans-serif;
             background-color: #e5e5e5;
             width: 100%;
             height: 300px;
-            padding-left: 55%;
+            
             .aboutUs__project__divTwo__rowOne,
             .aboutUs__project__divTwo__rowTwo {
-                width: 100%;
+                width: 50%;
                 height: 50%;
+                margin-left: 25%;
+                margin-right: 25%;
                 display: flex;
                 justify-content: flex-start;
                 align-items: center;
                 background-color: transparent;
-    
                 p {
                     position: relative;
                     display: flex;
@@ -207,22 +197,22 @@ $primary-font: "Poppins", sans-serif;
             }
             .aboutUs__project__divTwo__rowOne {
                 .aboutUs__project__divTwo__rowOne__item:nth-child(1) {
-                    margin-right: 10%;
                     background-color: transparent;
+                    width: 50%;
                 }
                 .aboutUs__project__divTwo__rowOne__item:nth-child(2) {
-                    margin-right: 10%;
                     background-color: transparent;
+                    width: 50%;
                 }
                 
             }
             .aboutUs__project__divTwo__rowTwo {
                 .aboutUs__project__divTwo__rowOne__item:nth-child(1) {
-                    margin-right: 10%;
+                    width: 50%;
                     background-color: transparent;
                 }
                 .aboutUs__project__divTwo__rowOne__item:nth-child(2) {
-                    margin-right: 10%;
+                    width: 50%;
                     background-color: transparent;
                 }
             }

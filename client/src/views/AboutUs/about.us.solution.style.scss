@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 $primary-font: "Poppins", sans-serif;
 
-@media only screen and (min-width: 1600px) and (max-width: 2400px) {
+@media only screen and (min-width: 1200px) and (max-width: 2400px) {
     .aboutUs__solution {
         position: relative;
         display: flex;
         flex: 1;
-        padding: 5% 12% 3% 12%;
+        padding: 5% 12% 0 12%;
+        margin-bottom: 5%;
         .aboutUs__solution__content {
             position: relative;
             display: flex;
@@ -66,50 +67,52 @@ $primary-font: "Poppins", sans-serif;
             position: relative;
             display: flex;
             flex-direction: column;
-            .aboutUs__solution__img__lineOne{
+            .aboutUs__solution__img__lineOne {
                 width: 75%;
                 height: 90%;
-                img{
+                img {
                     border-radius: 10px;
                     width: 100%;
                     height: 85%;
                     object-fit: cover;
                 }
             }
-            .aboutUs__solution__img__lineTwo{
+            .aboutUs__solution__img__lineTwo {
                 display: flex;
                 height: 50%;
                 padding-bottom: 10%;
-                img:nth-child(1){
+                img:nth-child(1) {
                     width: 25%;
                     height: 80%;
                     margin-right: 10%;
                     border-radius: 10px;
                 }
-                img:nth-child(2){
+                img:nth-child(2) {
                     width: 40%;
                     height: 80%;
                     margin-right: 10%;
                     border-radius: 10px;
                 }
-    
             }
         }
     }
 }
 
-@media only screen and (min-width: 1300px) and (max-width: 1599px) {
+@media only screen and (min-width: 400px) and (max-width: 1199px) {
     .aboutUs__solution {
         position: relative;
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         flex: 1;
-        padding: 5% 12% 10% 12%;
+        padding: 5% 12% 0 12%;
+        margin-bottom: 50px;
         .aboutUs__solution__content {
             position: relative;
             display: flex;
             flex-direction: column;
-            margin-top: 80px;
-            margin-right: 100px;
+            align-items: center;
             p {
                 position: relative;
                 display: flex;
@@ -124,9 +127,8 @@ $primary-font: "Poppins", sans-serif;
                 color: #333535;
             }
             small {
-                margin-top: 40px;
                 position: relative;
-                width: 515px;
+                width: fit-content;
                 height: 48px;
                 font-family: $primary-font;
                 font-style: normal;
@@ -136,61 +138,40 @@ $primary-font: "Poppins", sans-serif;
                 display: flex;
                 align-items: center;
                 color: #6c6c6c;
-            }
-            a {
-                position: relative;
-                width: 202px;
-                height: 51px;
-                padding: 14px 32px;
-                top: 60px;
-                background: #0085ff;
-                border-radius: 10px;
-                color: #ffffff;
-                font-family: $primary-font;
-                font-style: normal;
-                font-weight: 600;
-                font-size: 16px;
-                line-height: 24px;
-                /* identical to box height */
-                border: none;
                 text-align: center;
-                text-decoration: none;
-                cursor: pointer;
             }
+            
         }
         .aboutUs__solution__img {
-            margin-top: 20px;
+            margin-top: 50px;
             position: relative;
             display: flex;
-            flex-direction: column;
-            .aboutUs__solution__img__lineOne{
-                width: 75%;
-                height: 90%;
-                img{
-                    border-radius: 10px;
-                    width: 100%;
-                    height: 85%;
-                    object-fit: cover;
-                }
+            justify-content: space-between;
+            img {
+                border-radius: 10px;
+                width: 30%;
+                object-fit: contain;
             }
-            .aboutUs__solution__img__lineTwo{
-                display: flex;
-                height: 50%;
-                padding-bottom: 10%;
-                img:nth-child(1){
-                    width: 25%;
-                    height: 80%;
-                    margin-right: 10%;
-                    border-radius: 10px;
-                }
-                img:nth-child(2){
-                    width: 40%;
-                    height: 80%;
-                    margin-right: 10%;
-                    border-radius: 10px;
-                }
-    
-            }
+        }
+        a {
+            position: relative;
+            width: 202px;
+            height: 51px;
+            padding: 14px 32px;
+            background: #0085ff;
+            border-radius: 10px;
+            color: #ffffff;
+            font-family: $primary-font;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            /* identical to box height */
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 50px;
         }
     }
 }
