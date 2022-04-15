@@ -21,7 +21,7 @@ $primary-font: "Poppins", sans-serif;
             width: 10%;
             background-color: transparent;
         }
-        .home__achievement_content {
+        .home__achievement__content {
             display: flex;
             position: relative;
             width: 100%;
@@ -68,7 +68,7 @@ $primary-font: "Poppins", sans-serif;
         width: 100%;
         padding-left: 12%;
         padding-right: 12%;
-        margin-top: 10%;
+        margin-top: 100px;
         display: flex;
         flex-direction: column;
         img:nth-child(1) {
