@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 $primary-font: "Poppins", sans-serif;
-@media only screen and (min-width: 1600px) and (max-width: 2400px){
+@media only screen and (min-width: 1200px) and (max-width: 2400px){
     .aboutUs__service{
         position: relative;
         display: flex;
@@ -78,10 +78,13 @@ $primary-font: "Poppins", sans-serif;
         }
     }
 }
-@media only screen and (min-width: 1300px) and (max-width: 1599px){
+@media only screen and (min-width: 400px) and (max-width: 1199px){
     .aboutUs__service{
         position: relative;
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         flex: 1;
         margin-top: 100px;
         padding: 2% 12% 8% 12%;
@@ -101,13 +104,13 @@ $primary-font: "Poppins", sans-serif;
                 font-weight: bold;
                 font-size: 48px;
                 line-height: 72px;
-                text-align: left;
+                text-align: center;
                 color: #333535;
             }
             small {
                 margin-top: 40px;
                 position: relative;
-                width: 515px;
+                width: fit-content;
                 height: 48px;
                 font-family: $primary-font;
                 font-style: bold;
@@ -123,36 +126,38 @@ $primary-font: "Poppins", sans-serif;
             flex: 3;
             .aboutUs__service__content__pictures{
                 display: flex;
+                flex-direction: column;
                 flex: 1;
                 align-items: center;
                 justify-content: space-between;
                 img{
                     border-radius: 10px;
+                    margin-top: 20px;
                 }
             }
-            a{
-                position: relative;
-                width: 202px;
-                height: 51px;
-                padding: 14px 32px;
-                top: 20px;
-                border-radius: 10px;
-                background :transparent;
-                color: #0085ff;
-                font-family: $primary-font;
-                font-style: normal;
-                font-weight: 600;
-                font-size: 16px;
-                line-height: 24px;
-                /* identical to box height */
-                border: none;
-                text-align: center;
-                text-decoration: none;
-                cursor: pointer;
-                width: 100%;
-                display: flex;
-                justify-content: flex-end;
-            }
+            
+        }
+        a{
+            position: relative;
+            height: 51px;
+            top: 20px;
+            border-radius: 10px;
+            background :transparent;
+            color: #0085ff;
+            font-family: $primary-font;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            /* identical to box height */
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
         }
     }
 }

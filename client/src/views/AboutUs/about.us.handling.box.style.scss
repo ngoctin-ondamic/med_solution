@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 $primary-font: "Poppins", sans-serif;
 
-@media only screen and (min-width: 1600px) and (max-width: 2400px){
+@media only screen and (min-width: 1200px) and (max-width: 2400px){
     .handling_box{
         display: flex;
         flex-direction: column;
@@ -29,7 +29,6 @@ $primary-font: "Poppins", sans-serif;
             
         }
         small {
-            margin-top: -2%;
             position: relative;
             width: 100%;
             padding-right: 110px;
@@ -48,19 +47,19 @@ $primary-font: "Poppins", sans-serif;
         
     }
 }
-@media only screen and (min-width: 1300px) and (max-width: 1599px){
+@media only screen and (min-width: 400px) and (max-width: 1199px){
     .handling_box{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        flex: 1;
+        margin-top: 30px;
+        width: 100%;
         img{
-            width: 50px;
+            display: block;
+            width: fit-content;
             height: 50px;
             border-radius: 50%;
-            margin-right: 30%;
-            margin-left: 25%;
         }
         p{
             position: relative;
@@ -71,16 +70,13 @@ $primary-font: "Poppins", sans-serif;
             font-style: normal;
             font-weight: bold;
             font-size: 24px;
-            line-height: 72px;
             text-align: center;
             color: #333535;
-            
+            margin-top: -20px;
         }
         small {
             position: relative;
             width: 100%;
-            padding-left: 25%;
-            height: 48px;
             font-family: $primary-font;
             font-style: normal;
             font-weight: 500;
@@ -91,6 +87,7 @@ $primary-font: "Poppins", sans-serif;
             justify-content: center;
             align-items: center;
             color: #6c6c6c;
+            margin-top: -20px;
         }
         
     }
