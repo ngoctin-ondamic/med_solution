@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 
 const NavBarMenu = () => {
     return (
-        <Dropdown>
+        <Dropdown className='navBarMenu'>
             <Dropdown.Toggle variant="success" id="dropdown-basic">
             </Dropdown.Toggle>
             <Dropdown.Menu>    

@@ -7,21 +7,35 @@ import { Dropdown } from 'react-bootstrap'
 import HomeWorkIcon from '@mui/icons-material/HomeWork';
 import PhoneIcon from '@mui/icons-material/Phone';
 import AppsIcon from '@mui/icons-material/Apps';
+import { initialUserContact, IUserContact } from '../../models/user.model';
+import { ValidateUtil } from '../../utils/ValidateUtil';
+import userService from '../../services/user.service';
+import { IEmail, initialEmail } from '../../models/email.model';
+import applicationService from '../../services/application.service';
 
 const Footer = () => {
 
+  const [userContact, setUserContact] = useState<IUserContact>({ ...initialUserContact, typeContact: 0 });
   const [width, setWidth] = useState(window.innerWidth);
+  const [email, setEmail] = useState<IEmail>(initialEmail);
 
   useEffect(() => {
     function handleResize() {
       setWidth(window.innerWidth);
     }
-
+    const fetchData = async () => {
+      var response: IEmail | null = await applicationService.getInUseEmail();
+      if (response != null) {
+        console.log(`${response.userId}`)
+        setEmail(response);
+      }
+    }
+    fetchData().catch(console.error);
     window.addEventListener('resize', handleResize)
   }, [])
 
   const [scrollBtnToggle, setScrollBtnToggle] = useState<Boolean>(false);
-  function handleOnClick(event: React.MouseEvent) {
+  async function onClickHandler(event: React.MouseEvent) {
     const scrollButton = document.getElementById('scrollToTopBtn');
     if (event.currentTarget.getAttribute('id') === 'scrollToTopBtn') {
       if (scrollBtnToggle) {
@@ -42,6 +56,19 @@ const Footer = () => {
           scrollButton.style.transform = "rotate(360deg)";
         }
         setScrollBtnToggle(!scrollBtnToggle);
+      }
+    } else if (event.currentTarget.getAttribute('id') === 'btnConsulting') {
+      if (ValidateUtil.validatePhoneNumber(userContact.phoneNumber)) {
+        var responseCreateNewUserContact = await userService.createNewUserContact(userContact);
+        var respponseEmail = await userService.sendEmail(userContact, email);
+        console.log(`responseCreateNewUserContact : ${responseCreateNewUserContact}`)
+        console.log(`respponseEmail : ${respponseEmail}`)
+        if (responseCreateNewUserContact === true
+          && respponseEmail === true) {
+          console.log("here")
+          setUserContact({ ...initialUserContact, typeContact: 0 });
+        } else {
+        }
       }
     }
   }
@@ -114,9 +141,9 @@ const Footer = () => {
           <div className='footer__container__sectionFour'>
             <p>Yêu cầu cuộc gọi tư vấn</p>
             <input type="text" placeholder='SĐT của bạn' />
-            <button>Nhận tư vấn</button>
+            <button id='btnConsulting' >Nhận tư vấn</button>
           </div>
-          <button className='footer__container__pageUp' id='scrollToTopBtn' onClick={handleOnClick} >
+          <button className='footer__container__pageUp' id='scrollToTopBtn' onClick={onClickHandler} >
             &#8595;
           </button>
           <div className='footer__copyright' >
@@ -161,7 +188,7 @@ const Footer = () => {
             <button>Nhận tư vấn</button>
           </div>
         </div>
-        <button className='footer__container__pageUp' id='scrollToTopBtn' onClick={handleOnClick} >
+        <button className='footer__container__pageUp' id='scrollToTopBtn' onClick={onClickHandler} >
           &#8595;
         </button>
         <div className='footer__copyright' >
