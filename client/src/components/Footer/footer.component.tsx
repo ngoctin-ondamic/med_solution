@@ -72,6 +72,12 @@ const Footer = () => {
       }
     }
   }
+  function onChangeHandler(event: React.ChangeEvent<HTMLInputElement>) {
+    var id = event.currentTarget.getAttribute("id");
+    if (id === 'phoneNumber') {
+        setUserContact({ ...userContact, phoneNumber: event.currentTarget.value })
+    }
+}
 
   window.addEventListener('scroll', () => {
     const currentScroll = window.scrollY;
@@ -140,8 +146,8 @@ const Footer = () => {
           </div>
           <div className='footer__container__sectionFour'>
             <p>Yêu cầu cuộc gọi tư vấn</p>
-            <input type="text" placeholder='SĐT của bạn' />
-            <button id='btnConsulting' >Nhận tư vấn</button>
+            <input id="phoneNumber" value={userContact.phoneNumber} onChange={onChangeHandler} type="text" placeholder='SĐT của bạn' />
+            <button onClick={onClickHandler} id='btnConsulting' >Nhận tư vấn</button>
           </div>
           <button className='footer__container__pageUp' id='scrollToTopBtn' onClick={onClickHandler} >
             &#8595;
@@ -184,8 +190,8 @@ const Footer = () => {
           </div>
           <div className='footer__container__sectionFour'>
             <p>Yêu cầu cuộc gọi <br /> tư vấn</p>
-            <input type="text" placeholder='SĐT của bạn' />
-            <button>Nhận tư vấn</button>
+            <input id="phoneNumber"  onChange={onChangeHandler} type="text" value={userContact.phoneNumber} placeholder='SĐT của bạn' />
+            <button onClick={onClickHandler}  id='btnConsulting' >Nhận tư vấn</button>
           </div>
         </div>
         <button className='footer__container__pageUp' id='scrollToTopBtn' onClick={onClickHandler} >
